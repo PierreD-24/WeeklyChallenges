@@ -32,11 +32,11 @@ namespace ChallengesWithTestsMark8
         {
             if (number1 > number2)
             {
-                return number1;
+                return number2;
             }
             else
             {
-                return number2;
+                return number1;
             }
         }
 
@@ -48,7 +48,7 @@ namespace ChallengesWithTestsMark8
 
         public string GetGreeting(string nameOfPerson)
         {
-           return string.IsNullOrEmpty(nameOfPerson) ? "Hello!" : $"Hello {nameOfPerson}!";
+           return string.IsNullOrEmpty(nameOfPerson) ? "Hello!" : $"Hello, {nameOfPerson}!";
         }
 
         public string GetHey() => "HEY!";
